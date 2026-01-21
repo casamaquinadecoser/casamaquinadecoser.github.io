@@ -149,3 +149,13 @@ footer {
   border-radius: 4px;
   margin-bottom: 10px;
 }
+.caracteristicas {
+  text-align: left;
+  font-size: 14px;
+  margin: 10px 0;
+  padding-left: 18px;
+}
+
+.caracteristicas li {
+  margin-bottom: 5px;
+}
