@@ -1,87 +1,66 @@
-html, body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f5f5f5;
-  color: #333;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
-header {
-  background: #0b3c5d;
-  padding: 15px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.header {
+    background: #0b3c5d;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* Caja blanca del logo */
-.logo-box {
-  background: #ffffff;
-  padding: 10px 15px;
-  border-radius: 8px;
+/* LOGO */
+.logo {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
 }
 
-.logo-box img {
-  height: 130px;
+.logo img {
+    height: 80px;
+    width: auto;
+    display: block;
 }
 
-/* Navegación */
-.nav a {
-  color: white;
-  margin-left: 20px;
-  text-decoration: none;
-  font-weight: 500;
+/* MENÚ */
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
 }
 
-.nav a:hover {
-  text-decoration: underline;
+.menu a:hover {
+    text-decoration: underline;
 }
 
 /* CONTENIDO */
-.contenido {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  text-align: center;
+.contenedor {
+    max-width: 1100px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.contenedor h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contenedor p {
+    font-size: 18px;
+    color: #555;
 }
 
 /* FOOTER */
-footer {
-  background: #072a3f;
-  color: white;
-  text-align: center;
-  padding: 6px;
-  font-size: 13px;
-}
-@media (max-width: 768px) {
-  .logo img {
-    height: 70px;
-  }
-}
-/* CONTENEDOR GENERAL */
-.site {
-  max-width: 1200px;
-  margin: 0 auto;
-  background: #ffffff;
-}
-  .lista-servicios {
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: left;
-    font-size: 18px;
-}
-
-.lista-servicios li {
-    margin-bottom: 10px;
-}
-
-.contacto-servicios {
-    margin-top: 30px;
-    font-size: 16px;
+.footer {
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
