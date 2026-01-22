@@ -21,6 +21,12 @@
     margin-bottom: 15px;
 }
 
+.logo-box img {
+    width: 260px;      /* aumenta el tamaño */
+    max-width: 100%;
+    height: auto;     /* mantiene proporción */
+}
+
 /* MENU */
 .menu {
     display: flex;
