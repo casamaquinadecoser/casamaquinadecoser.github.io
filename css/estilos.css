@@ -105,3 +105,8 @@
     padding: 15px;
     margin-top: 60px;
 }
+
+.logo {
+    transform: rotate(0deg) !important;
+    writing-mode: horizontal-tb !important;
+}
