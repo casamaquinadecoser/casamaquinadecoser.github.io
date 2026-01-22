@@ -8,35 +8,36 @@
 /* HEADER */
 .header {
     background: #0b3c5d;
-    padding: 30px 20px;
-    text-align: center;
+    padding: 15px 30px;
 }
 
-/* LOGO */
+.header-inner {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO PROFESIONAL */
 .logo {
-    height: 150px;
-    background: white;
-    padding: 15px;
-    border-radius: 12px;
-    margin-bottom: 20px;
+    height: 80px;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
 }
 
 /* MENU */
 .menu {
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
-}
-
-.menu a:hover {
-    text-decoration: underline;
+    font-size: 15px;
 }
 
 /* CONTENIDO */
