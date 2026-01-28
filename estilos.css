@@ -227,10 +227,11 @@
     align-items: center
     gap: 20px;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .btn-whatsapp {
-    background: #25d366;
+    background: #1ebe5d;
     color: white;
     padding: 16px 28px;
     border-radius: 50px;
@@ -240,7 +241,7 @@
 }
 
 .btn-llamar {
-    background: #0b3c5d;
+    background: #08314d;
     color: white;
     padding: 16px 28px;
     border-radius: 50px;
