@@ -1,4 +1,4 @@
-/* RESET */
+/* ================= RESET ================= */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-/* HEADER */
+/* ================= HEADER ================= */
 .header {
     background: #0b3c5d;
     text-align: center;
@@ -26,7 +26,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* MENU */
+/* ================= MENU ================= */
 .menu {
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ body {
     text-decoration: underline;
 }
 
-/* CONTENEDOR GENERAL */
+/* ================= CONTENEDOR ================= */
 .contenedor {
     max-width: 1200px;
     margin: 60px auto;
@@ -53,24 +53,51 @@ body {
     text-align: center;
 }
 
-/* TEXTOS */
+/* ================= TEXTOS GENERALES ================= */
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
 }
 
 .subtitulo {
-    font-size: 18px;
+    font-size: 28px;
+    font-weight: bold;
     color: #555;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
-/* CATÁLOGO */
+/* ================= SERVICIOS ================= */
+.lista-servicios {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 22px;
+    line-height: 2;
+    text-align: center;
+}
+
+.contacto {
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* ================= TITULOS DE SECCION ================= */
+.categoria {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0b3c5d;
+    margin: 70px 0 35px;
+}
+
+/* ================= CATALOGO ================= */
 .catalogo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 30px;
-    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .card {
@@ -80,6 +107,7 @@ h1 {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     text-decoration: none;
     color: inherit;
+    text-align: center;
 }
 
 .card img {
@@ -90,16 +118,17 @@ h1 {
 }
 
 .card h3 {
+    font-size: 18px;
     color: #0b3c5d;
     margin-bottom: 8px;
 }
 
 .card p {
-    color: #555;
     font-size: 14px;
+    color: #555;
 }
 
-/* BOTÓN WHATSAPP EN TARJETAS */
+/* ================= BOTONES ================= */
 .btn-whatsapp {
     display: inline-block;
     margin-top: 12px;
@@ -112,15 +141,6 @@ h1 {
     font-size: 15px;
 }
 
-/* CONTACTO */
-.botones-contacto {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    margin: 40px 0;
-}
-
 .btn-llamar {
     background: #08314d;
     color: white;
@@ -131,13 +151,23 @@ h1 {
     font-weight: bold;
 }
 
-.info-contacto {
-    font-size: 17px;
-    line-height: 1.7;
-    margin-bottom: 40px;
+/* ================= CONTACTO ================= */
+.botones-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 40px 0;
 }
 
-/* MAPA */
+.info-contacto {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* ================= MAPA ================= */
 iframe {
     width: 100%;
     height: 350px;
@@ -146,7 +176,7 @@ iframe {
     margin-top: 20px;
 }
 
-/* FOOTER */
+/* ================= FOOTER ================= */
 .footer {
     background: #0b3c5d;
     color: white;
@@ -155,7 +185,7 @@ iframe {
     margin-top: 60px;
 }
 
-/* BOTÓN FLOTANTE WHATSAPP */
+/* ================= WHATSAPP FLOTANTE ================= */
 .whatsapp-float {
     position: fixed;
     width: 60px;
@@ -170,39 +200,4 @@ iframe {
     border-radius: 50%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.35);
     z-index: 9999;
-}
-
-/* ===== AJUSTE SERVICIOS (CENTRADO Y TEXTO GRANDE) ===== */
-
-.contenedor {
-    text-align: center;
-}
-
-/* Título */
-.subtitulo {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-/* Lista de servicios */
-.lista-servicios {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto 30px auto;
-    max-width: 600px;
-    font-size: 22px;
-    line-height: 2;
-    text-align: center;
-}
-
-.lista-servicios li::marker {
-    content: none;
-}
-
-/* Ubicación y teléfonos */
-.contacto {
-    font-size: 20px;
-    line-height: 1.8;
-    text-align: center;
 }
