@@ -172,28 +172,37 @@ iframe {
     z-index: 9999;
 }
 
-/* ===== CORRECCIÓN SERVICIOS ===== */
+/* ===== AJUSTE SERVICIOS (CENTRADO Y TEXTO GRANDE) ===== */
 
-.lista-servicios {
-    list-style: none !important;
-    padding: 0;
-    margin: 30px auto;
-    max-width: 600px;
-    font-size: 20px;
-    line-height: 1.8;
-    text-align: left;
+.contenedor {
+    text-align: center;
 }
 
-.lista-servicios li {
-    margin-bottom: 10px;
+/* Título */
+.subtitulo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Lista de servicios */
+.lista-servicios {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 30px auto;
+    max-width: 600px;
+    font-size: 22px;
+    line-height: 2;
+    text-align: center;
 }
 
 .lista-servicios li::marker {
     content: none;
 }
 
-.subtitulo {
-    font-size: 24px !important;
-    margin-bottom: 30px;
+/* Ubicación y teléfonos */
+.contacto {
+    font-size: 20px;
+    line-height: 1.8;
     text-align: center;
 }
