@@ -171,3 +171,29 @@ iframe {
     box-shadow: 0 4px 12px rgba(0,0,0,0.35);
     z-index: 9999;
 }
+
+/* ===== CORRECCIÓN SERVICIOS ===== */
+
+.lista-servicios {
+    list-style: none !important;
+    padding: 0;
+    margin: 30px auto;
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.lista-servicios li {
+    margin-bottom: 10px;
+}
+
+.lista-servicios li::marker {
+    content: none;
+}
+
+.subtitulo {
+    font-size: 24px !important;
+    margin-bottom: 30px;
+    text-align: center;
+}
