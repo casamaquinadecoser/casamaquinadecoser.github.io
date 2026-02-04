@@ -179,14 +179,17 @@ h1 {
 }
 
 .btn-pdf {
-    margin-top: auto;
-    align-self: center;
-    padding: 8px 16px;
-    background: #eef1f4;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    min-height: 26px;
+    display: flex;
+    justify-content: center;
+    padding: 6px 14px;
+    background: #eef3f7;
     color: #0b3c5d;
     text-decoration: none;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     display: inline-flex;
     align-items: center;
@@ -194,7 +197,7 @@ h1 {
 }
 
 .btn-pdf:hover {
-    background: #dce3ea;
+    background: #dfe8ef;
 }
 
 /* ================= CONTACTO ================= */
