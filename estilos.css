@@ -170,6 +170,22 @@ h1 {
     font-weight: bold;
 }
 
+.btn-pdf {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #e9ecef;
+    color: #333;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-pdf:hover {
+    background: #dcdcdc;
+}
+
 /* ================= CONTACTO ================= */
 .botones-contacto {
     display: flex;
