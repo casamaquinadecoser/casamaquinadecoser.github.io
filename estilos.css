@@ -254,3 +254,28 @@ iframe {
     height: auto;
     object-fit: contain;
 }
+
+/* ================= CATALOGO POR MARCA ================= */
+.catalogo-marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-marca {
+    background: transparent;      /* quita el cuadro blanco */
+    box-shadow: none;              /* quita sombra */
+    padding: 0;
+    min-height: auto;
+}
+
+.card-marca img {
+    max-width: 220px;              /* tamaño controlado */
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
