@@ -130,9 +130,14 @@ h1 {
 }
 
 .card h3 {
-    font-size: 18px;
+    font-size: 16px;
     color: #0b3c5d;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .card p {
